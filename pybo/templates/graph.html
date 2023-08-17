@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph</title>
+
+
+    <style>
+        .hi{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .hello{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hi">
+    <div class="hello">{{graph1|safe}}</div>
+    <div class="hello">{{graph2|safe}}</div>
+</div>
+<input type="hidden" value="{{lala}}" id="temperature">
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="../static/js/Chart.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.25.2.min.js" charset="utf-8"></script>
+<script src="../static/js/hihihi.js"></script>
+</html>
